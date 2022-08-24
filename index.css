@@ -64,8 +64,6 @@
 }
 
 
-}
-
 #about:hover{
     background-color: #003300;
 	color:white;
@@ -128,19 +126,7 @@ nav{
     padding: 20px;
 }
 
-#foot{
-  background-image:linear-gradient(to right, #3498DB, white);
-  background-color: grey;
-  background-color: #3498DB;
-  padding: 25px;
-  text-align: left;
-  font-size: 20px;
-  text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: bold;
-  font-size: 14px;
-	
-}
+
 .container{
     border: 2px solid black;
     position: center;
@@ -169,11 +155,11 @@ nav{
 }
 
 .foot{
-position: fixed;
+   background-image:linear-gradient(to right, #3498DB, white);
+   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: red;
    color: white;
    text-align: center;
 }
